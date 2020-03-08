@@ -12,6 +12,7 @@
     "dotenv": "^8.2.0",
     "fetch-download": "^1.1.1",
     "firebase-tools": "^7.14.0",
+    "gh-pages": "^2.2.0",
     "mapbox-gl": "^1.8.1",
     "node-sass": "^4.13.1",
     "proxy": "localhost:3000",
