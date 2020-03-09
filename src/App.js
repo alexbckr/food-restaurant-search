@@ -109,6 +109,7 @@ class App extends Component {
   this function performs the fetch from Yelp's Fusion API
   */
   performFetch(endpoint, reqOptions) {
+    console.log("final endpoint: " + endpoint)
     console.log("starting fetch");
     fetch(endpoint, reqOptions)
       .then(response => {

@@ -7,9 +7,9 @@ class RestaurantCard extends React.Component {
 
     //set up phone number
     var phoneNumber = this.props.restaurant.phone;
-    var pt1 = "(" + phoneNumber.substring(1, 4) + ")-";
-    var pt2 = phoneNumber.substring(4, 7) + "-";
-    var pt3 = phoneNumber.substring(7, 11);
+    var pt1 = "(" + phoneNumber.substring(2, 5) + ")-";
+    var pt2 = phoneNumber.substring(5, 8) + "-";
+    var pt3 = phoneNumber.substring(8, 12);
     var formattedPN = pt1 + pt2 + pt3;
     this.state = {
       pn: formattedPN
